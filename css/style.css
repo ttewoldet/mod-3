@@ -1,0 +1,64 @@
+
+.navbar-default {
+  background-color: gray;
+  border-color: #e7e7e7;
+  border-radius:0;
+}
+
+/*.navbar{
+  background-color: gray
+}*/
+.navbar-default .navbar-brand {
+  color: black;
+  font-weight: bold;
+  background-color: transparent;
+}
+.navbar-default .navbar-nav > li {
+  margin-bottom:4px
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: black;
+  text-align: center;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+.row{
+  margin-bottom: 10px;
+}
+.row >div{
+  background-color: gray;
+  border:6px solid white;
+
+
+
+}
+.row > div h1{
+  text-align: center;
+  text-transform:capitalize;
+}
+.row >div figure{
+    margin: 0 -1em 0 -1em;
+    position:relative;
+
+}
+.row >div figure img{
+   width:100%;
+
+}
+.row >div figure  figcaption{
+   position: absolute;
+  bottom: 0;
+  right: 0;
+  font-weight: bold;
+  color:blue;
+  width:100%;
+  text-transform: capitalize;
+  text-align: center;
+  vertical-align: center;
+  background-color: lightslategray;
+  opacity:0.45;
+
+
+}
